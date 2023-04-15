@@ -1,13 +1,8 @@
-
-
 <?php
-for($i=0; $i<10; $i++){
-    for($j=0; $j<$i; $j++){
-       for($k=0; $k<$j; $k++){
-        echo "0";
-       }
-      echo"<br>";  
+for($i =0; $i<10; $i++){
+    for($j =0; $j<$i; $j++){
+        echo"<br>";
     }
+    echo $i;
 }
-
 ?>
